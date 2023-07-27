@@ -29,7 +29,7 @@ nav li a {
 }
 
 .aboveFold {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Images/main.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://unsplash.com/photos/7EDZ1fxhgJQ");
     background-size: cover;
     display: block;
     position: relative;
