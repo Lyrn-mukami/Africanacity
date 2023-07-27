@@ -1,0 +1,184 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(95, 44, 22, 0.82);
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    height: 100px;
+    width: auto;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+nav li a {
+    color: black;
+}
+
+.aboveFold {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("Images/main.jpg");
+    background-size: cover;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 99px;
+
+}
+
+.aboveFold h1 {
+    margin: 60px 0px 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboveFold h2 {
+    margin: 30px 0px 80px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.belowFold {
+    background-color: rgb(95, 44, 22, 0.82);
+}
+
+.title,
+.menuTitle {
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.hotelInfo,
+.hotelInfo1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.hotelInfo summary {
+    padding: 22px;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+summary a {
+    color: rgb(0, 0, 165);
+    font-size: 20px;
+}
+
+summary a::after {
+    padding-left: 6px;
+    content: '\00bb';
+    opacity: 1;
+}
+
+.hotelInfo1 summary {
+    padding: 125px 22px 90px;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.about {
+    font-size: 24px;
+    line-height: 42px;
+    padding: 22px;
+}
+
+/* start:Menus.html  */
+.menus {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px;
+}
+
+.menus div img {
+    height: 750px;
+    width: auto;
+
+}
+
+/* end:menus.html */
+/* start:meetings.html */
+.venueTitle,
+.packageTitle,
+.floorTitle {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 10px 0px;
+}
+
+.venues,
+.packages,
+.floors {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    margin: 5px;
+    row-gap: 20px;
+    column-gap: 30px;
+    justify-content: space-evenly;
+}
+
+[id^="venue"],
+[id^="package"],
+[id^="floor"] {
+    display: grid;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    padding: 5px;
+}
+
+[id^="venue"] img,
+[id^="package"] img,
+[id^="floor"] img {
+    width: 350px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[id^="venue"] p:nth-child(1),
+[id^="package"] p:nth-child(1),
+[id^="floor"] p:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* end:meetings.html */
+.contactInfo{
+    width: fit-content;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacts {
+    display: grid;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    grid-template-columns: 380px;
+    grid-template-rows: auto auto;
+    padding: 5px;
+    justify-content: center;
+}
+
+.contacts img {
+    width: 350px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
